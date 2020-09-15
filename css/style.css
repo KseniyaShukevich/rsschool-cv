@@ -1,0 +1,57 @@
+.header {
+    height: 380px;
+}
+
+.top-background-header {
+    height: 50%;
+    background-color:#B2EAEA; 
+}
+
+.wrapper-header {
+    height: 80%;
+    width: 100vw;
+    max-width: 1200px;
+    position: relative;
+    margin: -100px auto 0 auto;
+}
+
+.line-decor {
+    height: 1px;
+    background-color: darkslategray;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.photo {
+    background-image: url(../image/me.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 0 auto;
+}
+
+.about-me-header {
+    margin-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.my-name {
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+}
+
+.specialty {
+    display: block;
+    margin-top: 15px;
+    color: gray;
+    font-size: 14px;
+}
+
+.wrapper-main {
+
+
+
+}
