@@ -1,0 +1,107 @@
+.header {
+    height: auto;
+}
+
+.top-background-header {
+    height: 150px;
+    background-color:#B2EAEA; 
+}
+
+.wrapper-header {
+    height: 80%;
+    max-width: 1200px;
+    position: relative;
+    margin: -100px auto 0 auto;
+}
+
+.line-decor-horizontal {
+    height: 1px;
+    background-color: gray;
+    width: auto;
+    margin: 10px auto 50px auto;
+}
+
+.line-decor-vertical {
+    width: 1px;
+    background-color: gray;
+    height: auto;
+}
+
+.photo {
+    background-image: url(../image/me.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 0 auto;
+}
+
+.about-me-header {
+    margin-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.my-name {
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+}
+
+.specialty {
+    display: block;
+    margin-top: 15px;
+    color: gray;
+    font-size: 14px;
+    font-weight: 600; 
+    letter-spacing: 0.1em;
+}
+
+.wrapper-main {
+    max-width: 1200px;
+    padding: 25px 25px 120px 25px;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    height: auto;
+    width: 45%;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: gray;
+    font-size: 14px;
+    font-weight: 600;  
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.information-about-me {
+    margin-bottom: 70px;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+@media(max-width: 700px) {
+
+    .content {
+        display: block;
+    }
+
+    .container {
+        width: auto;
+    }
+
+    .line-decor-vertical {
+        height: 0;
+    }
+}
